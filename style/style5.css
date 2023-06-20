@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(style/img/Login-bg.png);
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+}
+.wrapper .sidebar img{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.logout a{
+    text-decoration: none;
+}
+.sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+.sidebar ul li a{
+    color: lightblue;
+    display: block;
+}
+.sidebar ul li a .fa{
+    width: 25px; ;
+}
+.sidebar ul li:hover a{
+    background-color: #294f8d;
+}
+.card_sendiri{
+    position: absolute;
+    width: 953px;
+    height: 450px;
+    left: 282px;
+    top: 171px;
+    display: flex;
+    background: linear-gradient(101.88deg, rgba(255, 255, 255, 0.56) 4.05%, rgba(255, 255, 255, 0.56) 48.89%, rgba(255, 255, 255, 0.56) 98.35%);
+    box-shadow: 0px 4px 30px rgba(23, 41, 53, 0.25);
+    border-radius: 9px;
+}
+.card_sendiri .judul p{
+    position: absolute;
+width: 520px;
+height: 47px;
+left: 10px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+
+color: #585E97;
+}
+.card_sendiri hr{
+    position: absolute;
+width: 543px;
+height: 3px;
+left: 10px;
+top: 75px;
+
+border: 3px solid #8087C6;
+}
+.card_sendiri .info p{
+    position: absolute;
+width: 340px;
+height: 53px;
+left: 10px;
+top: 125px;
+
+font-family: 'Pangram';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+
+color: #4D6D8A;
+}
+.card_sendiri .sub_card{
+    position: absolute;
+width: 550.83px;
+height: 138.8px;
+left: 10px;
+top: 225px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 27px rgba(42, 60, 72, 0.13);
+border-radius: 4px;
+}
+.card_sendiri .sub_card p{
+    position: absolute;
+width: 203px;
+height: 34px;
+left: 10px;
+top: 10px;
+
+font-family: 'Pangram';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #787878;
+}
+.card_sendiri .sub_card .sub_sub_card .p1{
+    position: absolute;
+width: 376px;
+height: 25px;
+left: 10px;
+top: 70px;
+
+font-family: 'Pangram';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.14em;
+
+color: #787878;
+}
+.card_sendiri .sub_card .sub_sub_card .sub2_card{
+    position: absolute;
+width: 177.26px;
+height: 42.06px;
+left: 180px;
+top: 55px;
+
+background: #373B61;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card_sendiri .sub_card .sub_sub_card .sub2_card .p2{
+    position: absolute;
+width: 201px;
+height: 27px;
+left: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.card_sendiri img{
+    position: absolute;
+    width: 276.37px;
+    height: 431.12px;
+    left: 635px;
+    top: 0px;
+
+}

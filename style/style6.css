@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+}
+.wrapper .sidebar img{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.logout a{
+    text-decoration: none;
+}
+.sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+.sidebar ul li a{
+    color: lightblue;
+    display: block;
+}
+.sidebar ul li a .fa{
+    width: 25px; ;
+}
+.sidebar ul li:hover a{
+    background-color: #294f8d;
+}
+
+.main_content{
+    width: 100%;
+    margin-left: 200px;
+
+}
+.main_content .header{
+    padding: 20px;
+    width: 100%;
+    background-image: url(img/Login-bg.png);
+    border-bottom: 1px solid #e0e4e8;
+    position: fixed;
+}
+.main_content .info h2{
+    color: #454545 ;
+}
+.main_content .info hr{
+    border: none;
+    height: 12px;
+    background: black;
+    
+}
+.main_content .contain{
+    display: flex;
+    margin: 0 7rem;
+
+}
+.contain .card{
+    margin: 30px;
+}
+.card p a{
+    color: #454545;
+    text-decoration: none;
+}

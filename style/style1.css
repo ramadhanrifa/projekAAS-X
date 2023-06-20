@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  background-size: 100%;;
+  background-repeat:no-repeat ;
+  /* background-image: url(img/Login-bg.png) */
+
+}
+.wrapper{
+  margin-top: 95px;
+  height: 80%;
+  display: flex;
+
+
+}
+.wrapper .main-title{
+  width: 65%;
+  
+
+}
+.wrapper .main-title p{
+  font-size: 50px;
+  color: #F9F5F6;
+  width: 500px;
+}
+
+.sidebar{
+  position: absolute;
+  width: 500px;
+  height: 525px;
+  left: 800px;
+  top: 62px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.sidebar .text{
+  display: block;
+  position: absolute;
+  width: 335px;
+  height: 72px;
+  left: 115px;
+  top: 65px;
+  font-family: 'PP Pangram Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 112%;
+/* or 36px */
+
+
+color: #716B6B;
+}
+.sidebar form{
+  margin-top: 150px;
+  color: #7E7F80;
+}
+/* .sidebar form input{
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7E7F80;
+  border: 2px solid #7E7F80;
+} */
+input{
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border: 2px solid #525E64;
+}
+input .input-container {
+  display: flex;
+  justify-content: center;
+}
+/* .sidebar form button{
+  width: 100px;
+  margin-top: 20px;
+  border: 1px solid #525E64;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 6px;
+} */
+button{
+  width: 30%;
+  border: none;
+  background-color: #525E64;
+  color: white;
+  margin: 0 25px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.button-container{
+  margin: 25px;
+  display:flex;
+  justify-content: center;
+}
+button a{
+color: white;
+text-decoration: none;
+}
